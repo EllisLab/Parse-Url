@@ -35,9 +35,9 @@ The `find_uris` parameter lets you control auto-discovery of URLs. If set to "no
 
 ## Change Log
 
-- Version 1.2.1
+- 1.2.1
 	- Added an find_uris parameter to control auto-discovery, which breaks some complex URLs.
-- Version 1.2
+- 1.2
 	- Updated plugin to be 2.0 compatible
-- Version 1.1.1
+- 1.1.1
 	- Fixed a bug where the auto linking was interfering with this plugin's processing of URLs.
