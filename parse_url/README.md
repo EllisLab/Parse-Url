@@ -1,16 +1,24 @@
 # Parse-Url
 
-Wrap anything you want to be processed between the tag pairs.
+Parses URL in a string and returns only certain parts
 
-    {exp:parse_url total="100"}
+## Usage
 
-        text you want processed
+### `{exp:parse_url}`
 
-    {/exp:parse_url}
+#### Example Usage
 
-## Parameters
+```
+{exp:parse_url total="100"}
 
-### `parts`
+    text you want processed
+
+{/exp:parse_url}
+```
+
+#### Parameters
+
+##### parts
 
 The `parts` parameter lets you specify what parts of the URL to keep:
 
@@ -25,19 +33,28 @@ The `parts` parameter lets you specify what parts of the URL to keep:
 
 Include multiple ones like so `parts="scheme|host|path|query|fragment"`
 
-### `omit`
+##### omit
 
 The `omit` parameter lets you remove a certain string from the URLs. Separate multiple strings with a bar (|).
 
-### `find_uris`
+##### find_uris
 
 The `find_uris` parameter lets you control auto-discovery of URLs. If set to "no" it will treat the entire input as a URL. [default: yes]
 
 ## Change Log
 
-- 1.2.1
-	- Added an find_uris parameter to control auto-discovery, which breaks some complex URLs.
-- 1.2
-	- Updated plugin to be 2.0 compatible
-- 1.1.1
-	- Fixed a bug where the auto linking was interfering with this plugin's processing of URLs.
+### 2.0
+
+- Updated plugin to be 3.0 compatible
+
+### 1.2.1
+
+- Added an find_uris parameter to control auto-discovery, which breaks some complex URLs.
+
+### 1.2
+
+- Updated plugin to be 2.0 compatible
+
+### 1.1.1
+
+- Fixed a bug where the auto linking was interfering with this plugin's processing of URLs.
