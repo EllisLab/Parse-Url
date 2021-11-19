@@ -43,6 +43,10 @@ The `find_uris` parameter lets you control auto-discovery of URLs. If set to "no
 
 ## Change Log
 
+### 2.1
+
+- Updated author and confirmed 6.0 compatible
+
 ### 2.0
 
 - Updated plugin to be 3.0 compatible
